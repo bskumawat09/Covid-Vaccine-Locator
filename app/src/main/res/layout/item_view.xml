@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/blue_grey_800"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/tvCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_hospital"
+            android:drawablePadding="4dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:padding="4dp"
+            android:textColor="@color/blue_grey_400"
+            tools:text="Center Name" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCenter"
+            android:drawableStart="@drawable/ic_location"
+            android:drawablePadding="4dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:padding="4dp"
+            android:textColor="@color/blue_grey_400"
+            tools:text="Center Location" />
+
+        <TextView
+            android:id="@+id/tvTiming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLocation"
+            android:drawableStart="@drawable/ic_time"
+            android:drawablePadding="4dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:padding="4dp"
+            android:textColor="@color/blue_grey_400"
+            tools:text="Center Timing" />
+
+        <LinearLayout
+            android:id="@+id/linerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTiming"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tvVaccine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_vaccination"
+                android:drawablePadding="4dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/blue_grey_400"
+                tools:text="Vaccine Name" />
+
+            <TextView
+                android:id="@+id/tvFees"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_fee"
+                android:drawablePadding="4dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/blue_grey_400"
+                tools:text="Fees" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linerLayout"
+            android:background="@color/blue_grey_900"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tvAgeLimit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="@color/blue_grey_400"
+                android:textSize="16sp"
+                tools:text="Age limit" />
+
+            <TextView
+                android:id="@+id/tvAvailability"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="@color/blue_grey_400"
+                android:textSize="16sp"
+                tools:text="Available" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
