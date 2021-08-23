@@ -1,11 +1,11 @@
 # Covid-Vaccine-Locator
-Android app that locates vaccination centers along with their timings, availability etc.
+> Android app that locates vaccination centers along with their timings, availability etc.
 
-<p align="center">
-  <img src="https://github.com/bskumawat09/Covid-Vaccine-Locator/blob/master/appdemo/app-demo-1.jpg" width="220" alt="demo screenshots"/>
-  <img src="https://github.com/bskumawat09/Covid-Vaccine-Locator/blob/master/appdemo/app-demo-2.jpg" width="220" alt="demo screenshots"/>
-  <img src="https://github.com/bskumawat09/Covid-Vaccine-Locator/blob/master/appdemo/app-demo-3.jpg" width="220" alt="demo screenshots"/>
-</p>
+<div align="center">
+  <img src="https://github.com/bskumawat09/Covid-Vaccine-Locator/blob/master/appdemo/app-demo-1.jpg" width="30%" alt="demo screenshots"/>
+  <img src="https://github.com/bskumawat09/Covid-Vaccine-Locator/blob/master/appdemo/app-demo-2.jpg" width="30%" alt="demo screenshots"/>
+  <img src="https://github.com/bskumawat09/Covid-Vaccine-Locator/blob/master/appdemo/app-demo-3.jpg" width="30%" alt="demo screenshots"/>
+</div>
 
 <p align="center">
   <img src="https://github.com/bskumawat09/Covid-Vaccine-Locator/blob/master/appdemo/app-demo-4.jpg" width="220" alt="demo screenshots"/>
